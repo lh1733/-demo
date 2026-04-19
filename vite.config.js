@@ -44,9 +44,9 @@ export default defineConfig({
     },
   },
   plugins,
-  base: publicPath,
+  base: '/-demo/',
   build: {
-    outDir,
+    outDir: 'docs',
   },
   resolve: {
     alias: [
